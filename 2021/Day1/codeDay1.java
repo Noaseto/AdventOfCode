@@ -1,7 +1,7 @@
 import java.io.File;
 import java.util.Scanner;
 
-class code{
+class codeDay1{
     public static void main (String[] args){
         // part1();
         part2();
