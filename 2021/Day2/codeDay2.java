@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 class codeDay2{
     public static void main (String[] args){
-        String input = "exampleInput";
+        String input = "input";
 
         part1(input);
         part2(input);
@@ -61,11 +61,9 @@ class codeDay2{
 
                 switch(direction){
                     case(1): //up
-                        posY-=distance;
                         aim-=distance;
                         break;
                     case(3): //down
-                        posY+=distance;
                         aim+=distance;
                         break;
                     case(2): //forward
@@ -75,7 +73,6 @@ class codeDay2{
                     default:
                         System.out.println("sadge");
                 }
-                System.out.println(aim);
             }
             System.out.println(posX*posY);
         }catch (Exception e){
